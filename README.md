@@ -2,18 +2,20 @@
 
 **Uma migração só termina quando o resultado de cada registro é confirmado.**
 
-[![Demo ao vivo](https://img.shields.io/badge/Explorar-demo%20ao%20vivo-83dfdc?style=for-the-badge&labelColor=12293f)](https://leandroavalle.github.io/migrador-saude-demo/)
+[![Estudo de caso](https://img.shields.io/badge/Ver-estudo%20de%20caso-83dfdc?style=for-the-badge&labelColor=12293f)](https://leandroavalle.github.io/migrador-saude-demo/)
 [![CI](https://github.com/LeandroAValle/migrador-saude-demo/actions/workflows/showcase.yml/badge.svg)](https://github.com/LeandroAValle/migrador-saude-demo/actions/workflows/showcase.yml)
 
-![Painel Migrador Saúde Demo](docs/dashboard.png)
+![Tela pública de autenticação do Migrador Saúde em produção](site/assets/migrador-saude-login.png)
+
+> A captura mostra somente a autenticação pública do ambiente de produção, protegida pelo Cloudflare Access. As telas internas não são reproduzidas aqui porque o sistema opera com dados de saúde reais. O simulador deste repositório é uma implementação independente, executada localmente com dados sintéticos.
 
 > Projeto público independente com dados 100% fictícios. Nenhuma chamada é feita à API Betha, a banco de saúde ou ao Migrador Saúde v2 original.
 
 ## O que você pode explorar
 
-[**Abrir o painel**](https://leandroavalle.github.io/migrador-saude-demo/) · [Arquitetura](docs/ARCHITECTURE.md) · [Decisões](docs/DECISIONS.md) · [Dados](docs/DATA.md) · [Segurança](docs/SECURITY.md)
+[**Abrir estudo de caso**](https://leandroavalle.github.io/migrador-saude-demo/) · [Arquitetura](docs/ARCHITECTURE.md) · [Decisões](docs/DECISIONS.md) · [Dados](docs/DATA.md) · [Segurança](docs/SECURITY.md)
 
-O painel apresenta quatro serviços ilustrativos, um ledger de execução, totais reconciliados e a trilha por registro. É possível buscar uma chave, filtrar sucesso ou erro e consultar o caminho percorrido por cada item.
+O simulador local apresenta domínios ilustrativos, um ledger de execução, totais reconciliados e a trilha por registro. A página GitHub Pages é o estudo de caso visual e não simula a interface de produção.
 
 ## Arquitetura
 
