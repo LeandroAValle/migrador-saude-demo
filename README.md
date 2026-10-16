@@ -5,9 +5,7 @@
 [![Estudo de caso](https://img.shields.io/badge/Ver-estudo%20de%20caso-83dfdc?style=for-the-badge&labelColor=12293f)](https://leandroavalle.github.io/migrador-saude-demo/)
 [![CI](https://github.com/LeandroAValle/migrador-saude-demo/actions/workflows/showcase.yml/badge.svg)](https://github.com/LeandroAValle/migrador-saude-demo/actions/workflows/showcase.yml)
 
-![Tela pública de autenticação do Migrador Saúde em produção](site/assets/migrador-saude-login.png)
-
-> A captura mostra somente a autenticação pública do ambiente de produção, protegida pelo Cloudflare Access. As telas internas não são reproduzidas aqui porque o sistema opera com dados de saúde reais. O simulador deste repositório é uma implementação independente, executada localmente com dados sintéticos.
+> A página de portfólio não exibe telas de login ou capturas do ambiente de produção. O simulador deste repositório é uma implementação independente, executada localmente com dados sintéticos.
 
 > Projeto público independente com dados 100% fictícios. Nenhuma chamada é feita à API Betha, a banco de saúde ou ao Migrador Saúde v2 original.
 
