@@ -1,0 +1,2858 @@
+{
+  "schemaVersion": 1,
+  "period": "2026-09",
+  "dataOrigin": "synthetic",
+  "destination": "offline simulator",
+  "environment": "sandbox",
+  "writeGuard": "sandbox only",
+  "metrics": {
+    "total": 200,
+    "success": 188,
+    "errors": 12,
+    "prepared": 196,
+    "services": 4
+  },
+  "byService": [
+    {
+      "service": "Unidades",
+      "total": 8,
+      "success": 8,
+      "errors": 0
+    },
+    {
+      "service": "Profissionais",
+      "total": 30,
+      "success": 29,
+      "errors": 1
+    },
+    {
+      "service": "Equipes",
+      "total": 12,
+      "success": 12,
+      "errors": 0
+    },
+    {
+      "service": "Atendimentos",
+      "total": 150,
+      "success": 139,
+      "errors": 11
+    }
+  ],
+  "ledger": [
+    {
+      "operation": "Gerar",
+      "state": "CONCLUIDO",
+      "processed": 200,
+      "total": 200,
+      "checkpoint": "Origem fictícia lida e validada"
+    },
+    {
+      "operation": "Enviar",
+      "state": "CONCLUIDO",
+      "processed": 196,
+      "total": 196,
+      "checkpoint": "Lotes aceitos pelo simulador; ainda sem sucesso final"
+    },
+    {
+      "operation": "Consultar",
+      "state": "CONCLUIDO",
+      "processed": 196,
+      "total": 196,
+      "checkpoint": "Resultados finais conciliados por registro"
+    }
+  ],
+  "control": [
+    {
+      "key": "UNI-0001",
+      "service": "Unidades",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0002",
+      "service": "Unidades",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0003",
+      "service": "Unidades",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0004",
+      "service": "Unidades",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0005",
+      "service": "Unidades",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0006",
+      "service": "Unidades",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0007",
+      "service": "Unidades",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "UNI-0008",
+      "service": "Unidades",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0001",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0002",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0003",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0004",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0005",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0006",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0007",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0008",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0009",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0010",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0011",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0012",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0013",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0014",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0015",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0016",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0017",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0018",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0019",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0020",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0021",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0022",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0023",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0024",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0025",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0026",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0027",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0028",
+      "service": "Profissionais",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0029",
+      "service": "Profissionais",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "PRO-0030",
+      "service": "Profissionais",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0001",
+      "service": "Equipes",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0002",
+      "service": "Equipes",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0003",
+      "service": "Equipes",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0004",
+      "service": "Equipes",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0005",
+      "service": "Equipes",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0006",
+      "service": "Equipes",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0007",
+      "service": "Equipes",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0008",
+      "service": "Equipes",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0009",
+      "service": "Equipes",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0010",
+      "service": "Equipes",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0011",
+      "service": "Equipes",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "EQU-0012",
+      "service": "Equipes",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0001",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0002",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0003",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0004",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0005",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0006",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0007",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0008",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0009",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0010",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0011",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0012",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0013",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0014",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0015",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0016",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0017",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0018",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0019",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0020",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0021",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0022",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0023",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0024",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0025",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0026",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0027",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0028",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0029",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0030",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0031",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "ERRO"
+      ],
+      "message": "Referência obrigatória ausente na origem fictícia",
+      "payloadPrepared": false
+    },
+    {
+      "key": "ATE-0032",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0033",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0034",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0035",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0036",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0037",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0038",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0039",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0040",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0041",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0042",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0043",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0044",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0045",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0046",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0047",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0048",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0049",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0050",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0051",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0052",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0053",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0054",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0055",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0056",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0057",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0058",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0059",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0060",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0061",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0062",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "ERRO"
+      ],
+      "message": "Referência obrigatória ausente na origem fictícia",
+      "payloadPrepared": false
+    },
+    {
+      "key": "ATE-0063",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0064",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0065",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0066",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0067",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0068",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0069",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0070",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0071",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0072",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0073",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0074",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0075",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0076",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0077",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0078",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0079",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0080",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0081",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0082",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0083",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0084",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0085",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0086",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0087",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0088",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0089",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0090",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0091",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0092",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0093",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "ERRO"
+      ],
+      "message": "Referência obrigatória ausente na origem fictícia",
+      "payloadPrepared": false
+    },
+    {
+      "key": "ATE-0094",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0095",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0096",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0097",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0098",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0099",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0100",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0101",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0102",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0103",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0104",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0105",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0106",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0107",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0108",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0109",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0110",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0111",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0112",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0113",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0114",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0115",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0116",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0117",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0118",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0119",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0120",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0121",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0122",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0123",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0124",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "ERRO"
+      ],
+      "message": "Referência obrigatória ausente na origem fictícia",
+      "payloadPrepared": false
+    },
+    {
+      "key": "ATE-0125",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0126",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0127",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0128",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0129",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0130",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0131",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0132",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0133",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "ERRO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "ERRO"
+      ],
+      "message": "Destino simulado rejeitou a referência para revisão",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0134",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0135",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0136",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0137",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0138",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0139",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0140",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0141",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0142",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0143",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0144",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0145",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0146",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0147",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0148",
+      "service": "Atendimentos",
+      "unit": "UBS Horizonte",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0149",
+      "service": "Atendimentos",
+      "unit": "UBS Vale",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    },
+    {
+      "key": "ATE-0150",
+      "service": "Atendimentos",
+      "unit": "UBS Aurora",
+      "status": "SUCESSO",
+      "history": [
+        "EXTRAIDO",
+        "PENDENTE",
+        "ENVIADO",
+        "SUCESSO"
+      ],
+      "message": "Aceito após consulta simulada do lote",
+      "payloadPrepared": true
+    }
+  ]
+}
