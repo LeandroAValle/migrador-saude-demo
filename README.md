@@ -9,6 +9,12 @@
 
 > Projeto público independente com dados 100% fictícios. Nenhuma chamada é feita à API Betha, a banco de saúde ou ao Migrador Saúde v2 original.
 
+## Finalidade
+
+O Migrador Saúde apoia equipes técnicas e de implantação na transferência de dados de saúde entre sistemas. O fluxo permite validar registros, acompanhar o resultado de cada envio e reconciliar sucessos e falhas.
+
+**Problema que resolve:** dá visibilidade ao que foi migrado e ao que precisa de correção, em vez de tratar uma carga em lote como sucesso sem conferir cada registro. O simulador deste repositório demonstra esse processo com dados fictícios.
+
 ## O que você pode explorar
 
 [**Abrir estudo de caso**](https://leandroavalle.github.io/migrador-saude-demo/) · [Arquitetura](docs/ARCHITECTURE.md) · [Decisões](docs/DECISIONS.md) · [Dados](docs/DATA.md) · [Segurança](docs/SECURITY.md)
